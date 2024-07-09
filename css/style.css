@@ -210,9 +210,12 @@
 .my-current-target {
     margin-top: 90px;
 }
-.current-target-box-main{
+
+.current-target-box-main,
+.next-target-card {
     gap: 24px;
 }
+
 .current-target-box {
     width: 364px;
     height: auto;
@@ -239,7 +242,8 @@
     height: 64px;
 }
 
-.current-target-name {
+.current-target-name,
+.next-target-name {
     font-size: 24px;
     font-weight: 800;
     line-height: 36px;
@@ -250,4 +254,20 @@
     margin: 8px 0px 24px 0px;
 }
 
+/* my next target */
+.my-next-target {
+    margin-top: 111px;
+}
+
+.next-target-card {
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-top: 46px;
+}
+.next-target-card-left img{
+    width: 94px;
+    height: 84px;
+}
 /* main section style end */
