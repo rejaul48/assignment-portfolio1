@@ -93,6 +93,13 @@
    opacity: 100%;
 }
 
+.next-target-card:hover .next-target-card-left img,
+.current-target-box:hover img,
+.web-dev-box1:hover .web-dev-box1-right img,
+.web-dev-box2:hover .web-dev-box2-left img{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
 /* common css style end */
 /* header style start */
 /* header top */
