@@ -19,9 +19,11 @@
 .d-flex {
     display: flex;
 }
-.d-inline-block{
+
+.d-inline-block {
     display: inline-block;
 }
+
 .justify-center {
     justify-content: center;
 }
@@ -53,13 +55,21 @@
 
 }
 
-.description-text{
+.description-text {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0%;
+    line-height: 23px;
     opacity: 0.7;
+    width: 85%;
+    padding: 24px 0px;
+    margin: 0 auto !important;
+
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 800;
 }
 
 /* common css style end */
@@ -103,7 +113,81 @@
     line-height: 48px;
     margin: 24px 0px;
 }
-.contact-me{
+
+.contact-me {
     margin-top: 32px;
 }
+
 /* header style end */
+/* main section style start */
+.why-web-dev {
+    border-radius: 16px;
+    padding: 80px 97px 80px 97px;
+    margin-top: 74px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.section-description {
+    margin: 24px 0px 48px 0px;
+}
+
+/* weh dev cards style */
+
+.web-dev-box1,
+.web-dev-box2 {
+    width: 946px;
+    height: 336px;
+    padding: 48px;
+    margin-top: 48px;
+    gap: 32px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+
+.web-dev-box2 {
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+
+.web-dev-box1-left,
+.web-dev-box2-right {
+    width: 477px;
+    height: auto;
+}
+
+.web-dev-description {
+    padding: 16px 0px;
+}
+
+.web-dev-box1-right img {
+    width: 260px;
+    height: 217px;
+}
+
+.web-dev-title {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.learn-more-btn {
+    border-radius: 0px;
+    margin-top: 16px;
+}
+
+/* my inspiration */
+.my-inpriration {
+    margin-top: 90px;
+}
+
+.inpring-video {
+    margin-top: 24px;
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+.if-video{
+    border-radius: 16px;
+}
+/* main section style end */
