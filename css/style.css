@@ -1,0 +1,16 @@
+
+/* universal css and reset default settings start*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* universal css and reset default settings end*/
+
+/* common css style start */
+.container{
+    width: 1140px;
+    height: auto;
+    margin: 0 auto;
+}
+/* common css style end */
